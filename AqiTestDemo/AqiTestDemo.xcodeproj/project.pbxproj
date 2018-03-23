@@ -17,6 +17,7 @@
 		517F15F02064D713007B1AB6 /* AqiTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F15EF2064D713007B1AB6 /* AqiTestDemoUITests.m */; };
 		517F16002064D742007B1AB6 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F15FE2064D742007B1AB6 /* TestVC.m */; };
 		517F16012064D742007B1AB6 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517F15FF2064D742007B1AB6 /* TestVC.xib */; };
+		517F16042064E104007B1AB6 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 517F16032064E104007B1AB6 /* TCPClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		517F15FD2064D742007B1AB6 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		517F15FE2064D742007B1AB6 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		517F15FF2064D742007B1AB6 /* TestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		517F16022064E104007B1AB6 /* TCPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		517F16032064E104007B1AB6 /* TCPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				517F15FD2064D742007B1AB6 /* TestVC.h */,
 				517F15FE2064D742007B1AB6 /* TestVC.m */,
 				517F15FF2064D742007B1AB6 /* TestVC.xib */,
+				517F16022064E104007B1AB6 /* TCPClient.h */,
+				517F16032064E104007B1AB6 /* TCPClient.m */,
 				517F15D12064D712007B1AB6 /* Main.storyboard */,
 				517F15D42064D712007B1AB6 /* Assets.xcassets */,
 				517F15D62064D712007B1AB6 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			files = (
 				517F16002064D742007B1AB6 /* TestVC.m in Sources */,
 				517F15D02064D712007B1AB6 /* ViewController.m in Sources */,
+				517F16042064E104007B1AB6 /* TCPClient.m in Sources */,
 				517F15DB2064D712007B1AB6 /* main.m in Sources */,
 				517F15CD2064D712007B1AB6 /* AppDelegate.m in Sources */,
 			);

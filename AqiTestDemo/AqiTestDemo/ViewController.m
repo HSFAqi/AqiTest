@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "TCPClient.h"
+
 @interface ViewController ()
 
 @end
@@ -18,6 +20,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+//发送
+- (IBAction)send:(UIButton *)sender {
+    BOOL success = [[TCPClient shareTCPClient] connection:@"192.168.3.26" port:2097];
+    if (success) {
+//        NSString *string = @"fe 00 00 01 ff ff 14 31 3c 00 00 00 00 00 00 00 00 00 00 1D";
+//        [[TCPClient shareTCPClient] sendStringToServerAndReceived:string];
+//        
+    }else{
+        NSLog(@"connet error !");
+    }
+    
+}
+
+
+
+
+
+
 
 
 - (void)didReceiveMemoryWarning {
